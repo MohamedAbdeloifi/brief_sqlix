@@ -88,10 +88,12 @@ CREATE TABLE IF NOT EXISTS `village` (
 ALTER TABLE `absorber`
   ADD CONSTRAINT `absorber_ibfk_1` FOREIGN KEY (`num_hab`) REFERENCES `habitant` (`num_hab`),
   ADD CONSTRAINT `absorber_ibfk_2` FOREIGN KEY (`num_potion`) REFERENCES `potion` (`num_potion`);
+ALTER TABLE `absorber` ADD INDEX(`num_potion`);
 
 ALTER TABLE `fabriquer`
   ADD CONSTRAINT `fabriquer_ibfk_1` FOREIGN KEY (`num_hab`) REFERENCES `habitant` (`num_hab`),
   ADD CONSTRAINT `fabriquer_ibfk_2` FOREIGN KEY (`num_potion`) REFERENCES `potion` (`num_potion`);
+ALTER TABLE `fabriquer` ADD INDEX(`num_potion`);
 
 ALTER TABLE `habitant`
   ADD CONSTRAINT `habitant_ibfk_1` FOREIGN KEY (`num_qualite`) REFERENCES `qualite` (`num_qualite`),
