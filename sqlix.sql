@@ -111,24 +111,24 @@ ALTER TABLE `village`
 
 -----------------------------------------------------------------
 
-REGEX POUR POTION : ^([\d]+)\t([\w °]+)\t([\w]+)\t([\w ]+)$;
+-- REGEX POUR POTION : ^([\d]+)\t([\w °]+)\t([\w]+)\t([\w ]+)$;
 
-REGEX POUR QUALITE : ^([\d])\t([\wè ]+)$ ;
+-- REGEX POUR QUALITE : ^([\d])\t([\wè ]+)$ ;
 
-REGEX POUR PROVINCE : ^([\d])\t([\w]+)\t([\w]+)$ ;
+-- REGEX POUR PROVINCE : ^([\d])\t([\w]+)\t([\w]+)$ ;
 
-REGEX POUR VILLAGE : ^([\d])\t([\wè ]+)\s([\w\d])+\s([\d]+)$ ;
+-- REGEX POUR VILLAGE : ^([\d])\t([\wè ]+)\s([\d]+)\s([\d])$
 
-REGEX POUR HABITANT : ^([\d]+)\s([\wèé]+)\s([\d]+)\s([\d\w]+)\s([\d]+)$ ;
+-- REGEX POUR HABITANT : ^([\d]+)\s([\wèé]+)\s([\d]+)\s([\d\w]+)\s([\d]+)$ ;
 
-REGEX POUR POTION : ^([\d])\t([\d]+)$ ;
+-- REGEX POUR POTION : ^([\d])\t([\d]+)$ ;
 
-REGEX POUR ABSORBER : ^([\d])\t([\d-]+)\s([\d:]+)\s([\d]+)\s([\d])$ ;
+-- REGEX POUR ABSORBER : ^([\d])\t([\d-]+)\s([\d:]+)\s([\d]+)\s([\d])$ ;
 
-REGEX POUR RESSERRE : ^([\d])\t([\w]+)\s([\w\d])+\s([\d]+)$ ;
+-- REGEX POUR RESSERRE : ^([\d])\t([\w]+)\s([\w\d])+\s([\d]+)$ ;
 
-REGEX POUR CATEGORIE : ^([\w]+)\s([\wé ]+)\s([\d]+)$ ;
+-- REGEX POUR CATEGORIE : ^([\w]+)\s([\wé ]+)\s([\d]+)$ ;
 
-REGEX POUR CATEGORIE : ^([\d]+)\t([\d-]+\s[\d:]+)\s([\w]+)\s([\d]+)\s([\d])$ ;
+-- REGEX POUR TROPHEE : ^([\d]+)\t([\d-]+\s[\d:]+)\s([\w]+)\s([\d]+)\s([\d])$ ;
 
 
